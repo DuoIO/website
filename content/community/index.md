@@ -37,19 +37,19 @@ Currently, community calls for in Q1, 2022 are open for recommendation except th
 
 ## Community Call Topics for 2022
 
-| A. Industry Series | Hosts | Schedule |
-| ----------- | ----------- | ----------- |
-| DuoPlus Product Framework | Chaired by Allen You, and Chance Jiang | [Events for Q1 2022](/events/2022-01-11-q1-events/) |
+| A. Industry Series        | Hosts                                                                                       | Schedule                                            |
+| ------------------------- | ------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| DuoPlus Product Framework | Chaired by Allen You, and Chance Jiang                                                      | [Events for Q1 2022](/events/2022-01-11-q1-events/) |
 | Cross-boarder partnership | Chaired by Ali Mohammad, Ubuntu Innovation Hub </br> Co-chaired by Ryan Sy, CMO, tikoly.com | [Events for Q1 2022](/events/2022-01-11-q1-events/) |
 
 
-| B. Business Series | Hosts | Schedule |
-| ----------- | ----------- | ----------- |
+| B. Business Series                                             | Hosts                                                                                                     | Schedule                                            |
+| -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
 | Smart applicance trends and </br> IoP - Internet of Production | Chaired by Ryan Sy, tikoly.com </br> Co-chaired by Sunny Yang, [wikifactory.com](https://wikifactory.com) | [Events for Q1 2022](/events/2022-01-11-q1-events/) |
 
 
-| C. Prodcut Series | Hosts | Schedule |
-| ----------- | ----------- | ----------- |
+| C. Prodcut Series       | Hosts                                                                                                   | Schedule                                            |
+| ----------------------- | ------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
 | IoT tech and app design | Chaired by Alex Choi, tikoly.com </br> Co-chaired by Chance J., [ifanr Cloud](https://cloud.minapp.com) | [Events for Q1 2022](/events/2022-01-11-q1-events/) |
 
 ### Social Networks

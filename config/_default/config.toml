@@ -1,4 +1,4 @@
-baseurl = "https://duonb.org/"
+baseurl = "https://duonb.so/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
@@ -16,77 +16,77 @@ section = ["HTML", "RSS", "SITEMAP"]
 
 # remove .{ext} from text/netlify
 [mediaTypes."text/netlify"]
-suffixes = [""]
 delimiter = ""
+suffixes = [""]
 
 # add output format for netlify _redirects
 [outputFormats.REDIRECTS]
-mediaType = "text/netlify"
 baseName = "_redirects"
 isPlainText = true
+mediaType = "text/netlify"
 notAlternative = true
 
 # add output format for netlify _headers
 [outputFormats.HEADERS]
-mediaType = "text/netlify"
 baseName = "_headers"
 isPlainText = true
+mediaType = "text/netlify"
 notAlternative = true
 
 # add output format for section sitemap.xml
 [outputFormats.SITEMAP]
-mediaType = "application/xml"
 baseName = "sitemap"
 isHTML = false
 isPlainText = true
+mediaType = "application/xml"
 noUgly = true
-rel  = "sitemap"
+rel = "sitemap"
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-      linkify = false
-    [markup.goldmark.parser]
-      autoHeadingID = true
-      autoHeadingIDType = "github"
-      [markup.goldmark.parser.attribute]
-        block = true
-        title = true
-    [markup.goldmark.renderer]
-      unsafe = true
-  [markup.highlight]
-    codeFences = false
-    guessSyntax = false
-    hl_Lines = ""
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = false
-    style = "dracula"
-    tabWidth = 4
+[markup.goldmark]
+[markup.goldmark.extensions]
+linkify = false
+[markup.goldmark.parser]
+autoHeadingID = true
+autoHeadingIDType = "github"
+[markup.goldmark.parser.attribute]
+block = true
+title = true
+[markup.goldmark.renderer]
+unsafe = true
+[markup.highlight]
+codeFences = false
+guessSyntax = false
+hl_Lines = ""
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = false
+style = "dracula"
+tabWidth = 4
 
 [sitemap]
-  changefreq = "weekly"
-  filename = "sitemap.xml"
-  priority = 0.5
+changefreq = "weekly"
+filename = "sitemap.xml"
+priority = 0.5
 
 [taxonomies]
-  contributor = "contributors"
+contributor = "contributors"
 
 [RelPermalinks]
-  blog = "/blog/:title/"
-  events = "/events/:title/"
+blog = "/blog/:title/"
+events = "/events/:title/"
 
 [module]
-  [[module.mounts]]
-    source = "assets"
-    target = "assets"
-  [[module.mounts]]
-    source = "static"
-    target = "static"
-  [[module.mounts]]
-    source = "node_modules/flexsearch"
-    target = "assets/js/vendor/flexsearch"
-  [[module.mounts]]
-    source = "node_modules/katex"
-    target = "assets/js/vendor/katex"
+[[module.mounts]]
+source = "assets"
+target = "assets"
+[[module.mounts]]
+source = "static"
+target = "static"
+[[module.mounts]]
+source = "node_modules/flexsearch"
+target = "assets/js/vendor/flexsearch"
+[[module.mounts]]
+source = "node_modules/katex"
+target = "assets/js/vendor/katex"
